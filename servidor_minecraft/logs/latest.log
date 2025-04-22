@@ -1,0 +1,132 @@
+[01:14:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[01:14:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[01:14:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[01:14:13] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[01:14:13] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1026-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[01:14:13] [main/INFO] [FML]: Searching /workspaces/ica/servidor_minecraft/./mods for mods
+[01:14:13] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from !mixinbooter-10.6.jar
+[01:14:13] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Galacticraft-1.12.2-4.0.7.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[01:14:13] [main/WARN] [FML]: The coremod MicdoodlePlugin (micdoodle8.mods.miccore.MicdoodlePlugin) is not signed!
+[01:14:13] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from More-Planets-1.12.2-2.3.3-GC4.0.6.jar
+[01:14:13] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from stevekung's-lib-mc1.12.2-v1.3.1.jar
+[01:14:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:14:13] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[01:14:13] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ica/servidor_minecraft/./mods/!mixinbooter-10.6.jar Service=LaunchWrapper Env=SERVER
+[01:14:13] [main/WARN] [FML]: The coremod zone.rong.mixinbooter.MixinBooterPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[01:14:13] [main/WARN] [FML]: The coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin) is not signed!
+[01:14:13] [main/INFO] [MixinBooter]: Initializing Mixins...
+[01:14:13] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[01:14:13] [main/INFO] [MixinBooter]: Initializing MixinExtras...
+[01:14:13] [main/INFO] [MixinBooter]: Gathering present mods...
+[01:14:14] [main/INFO] [MixinBooter]: Finished gathering 2 coremods...
+[01:14:14] [main/INFO] [SteveKunG's Lib]: Initializing SteveKunG's Lib plugin!
+[01:14:14] [main/WARN] [FML]: The coremod SteveKunGLibPlugin (stevekung.mods.stevekunglib.core.SteveKunGLibPlugin) is not signed!
+[01:14:14] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[01:14:14] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[01:14:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:14:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:14:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:14:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:14:15] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:14:15] [main/INFO] [MicdoodleCore]: Successfully Registered Transformer
+[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[01:14:15] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@6fd1660
+[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:14:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:14:15] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[01:14:15] [main/INFO] [stevekung.mods.moreplanets.core.MPMixinConfigPlugin]: Magma Server not detected!
+[01:14:15] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.1).
+[01:14:16] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[01:14:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[01:14:19] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[01:14:19] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:14:19] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[01:14:19] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[01:14:19] [Server thread/INFO] [MixinBooter]: Initializing MixinBooter's Mod Container.
+[01:14:19] [Server thread/INFO] [FML]: Searching /workspaces/ica/servidor_minecraft/./mods for mods
+[01:14:20] [Server thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
+[01:14:20] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[01:14:20] [Server thread/WARN] [FML]: Missing English translation for stevekung's_lib: assets/stevekung's_lib/lang/en_us.lang
+[01:14:20] [Server thread/INFO] [MixinBooter]: Loading late loader [stevekung.mods.moreplanets.core.GCMixinLoader] for its mixins.
+[01:14:20] [Server thread/INFO] [MixinBooter]: Adding [mixins.more_planets_gc.json] mixin configuration.
+[01:14:20] [Server thread/INFO] [MixinBooter]: Adding [mixins.more_planets_gs.json] mixin configuration.
+[01:14:20] [Server thread/WARN] [mixin]: Error loading class: asmodeuscore/core/astronomy/dimension/world/worldengine/WE_WorldProviderSpace (java.lang.ClassNotFoundException: The specified class 'asmodeuscore.core.astronomy.dimension.world.worldengine.WE_WorldProviderSpace' was not found)
+[01:14:20] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, micdoodlecore, mixinbooter, galacticraftplanets, galacticraftcore, moreplanets, stevekung's_lib] at CLIENT
+[01:14:20] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, micdoodlecore, mixinbooter, galacticraftplanets, galacticraftcore, moreplanets, stevekung's_lib] at SERVER
+[01:14:20] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[01:14:20] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[01:14:20] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:14:20] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:14:20] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:14:20] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [stevekung's_lib] Starting version check at https://raw.githubusercontent.com/SteveKunG/VersionCheckLibrary/master/stevekung's_lib_version.json
+[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [stevekung's_lib] Found status: UP_TO_DATE Target: null
+[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [moreplanets] Starting version check at https://raw.githubusercontent.com/SteveKunG/VersionCheckLibrary/master/more_planets_version.json
+[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [moreplanets] Found status: UP_TO_DATE Target: null
+[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
+[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
+[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
+[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
+[01:14:23] [Server thread/INFO] [More Planets]: Initialize sounds from class stevekung.mods.moreplanets.init.MPSounds
+[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
+[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
+[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
+[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
+[01:14:23] [Server thread/INFO] [FML]: Injecting itemstacks
+[01:14:23] [Server thread/INFO] [FML]: Itemstack injection complete
+[01:14:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[01:14:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[01:14:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[01:14:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[01:14:23] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[01:14:23] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:14:23] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[01:14:23] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:14:23] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
+[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
+[01:14:23] [Server thread/INFO] [FML]: Injecting itemstacks
+[01:14:23] [Server thread/INFO] [FML]: Itemstack injection complete
+[01:14:24] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
+[01:14:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[01:14:24] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[01:14:25] [Server thread/INFO] [FML]: Applying holder lookups
+[01:14:25] [Server thread/INFO] [FML]: Holder lookups applied
+[01:14:25] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@65e2ec96)
+[01:14:25] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 832 advancements
+[01:14:25] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@65e2ec96)
+[01:14:25] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@65e2ec96)
+[01:14:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[01:14:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 61%
+[01:14:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.507s)! For help, type "help" or "?"
+[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2542
+[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2543
+[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2544
+[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2545
+[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -29
+[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -30
+[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -31
+[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2642
+[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -28
+[01:14:26] [Server thread/INFO] [FML]: Unloading dimension -1
+[01:14:26] [Server thread/INFO] [FML]: Unloading dimension 1
+[01:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[01:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[01:17:40] [Server thread/INFO] [FML]: Unloading dimension 0
+[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2542
+[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2543
+[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2544
+[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2545
+[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -29
+[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -30
+[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -31
+[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2642
+[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -28
+[01:17:40] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
