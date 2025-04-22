@@ -1,109 +1,459 @@
-[22Apr2025 03:17:36.038] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[22Apr2025 03:17:36.043] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
-[22Apr2025 03:17:36.177] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/ica/servidor_minecraft/config/fml.toml is not correct. Correcting
-[22Apr2025 03:17:36.181] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[22Apr2025 03:17:36.181] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[22Apr2025 03:17:36.182] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[22Apr2025 03:17:36.183] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[22Apr2025 03:17:36.204] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[22Apr2025 03:17:36.259] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ica/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[22Apr2025 03:17:36.497] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[22Apr2025 03:17:36.499] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[22Apr2025 03:17:36.501] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[22Apr2025 03:17:36.502] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[22Apr2025 03:17:36.583] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[22Apr2025 03:17:38.059] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[22Apr2025 03:17:43.807] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[22Apr2025 03:17:43.811] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[22Apr2025 03:17:44.486] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[22Apr2025 03:17:45.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[22Apr2025 03:17:45.628] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22Apr2025 03:17:45.670] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ica/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[22Apr2025 03:17:45.671] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ica/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[22Apr2025 03:17:47.559] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[22Apr2025 03:17:47.698] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[22Apr2025 03:17:48.300] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[22Apr2025 03:17:48.301] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[22Apr2025 03:17:48.301] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[22Apr2025 03:17:48.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[22Apr2025 03:17:48.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[22Apr2025 03:17:48.486] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[22Apr2025 03:17:48.584] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22Apr2025 03:17:48.585] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[22Apr2025 03:17:48.586] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22Apr2025 03:17:48.586] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[22Apr2025 03:17:48.617] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[22Apr2025 03:17:48.620] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[22Apr2025 03:17:48.621] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[22Apr2025 03:17:48.622] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[22Apr2025 03:17:48.623] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[22Apr2025 03:17:48.624] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[22Apr2025 03:17:48.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[22Apr2025 03:17:48.626] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[22Apr2025 03:17:48.627] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[22Apr2025 03:17:48.690] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[22Apr2025 03:17:55.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[22Apr2025 03:17:56.017] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Apr2025 03:17:56.020] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Apr2025 03:17:56.633] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Apr2025 03:17:56.955] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Apr2025 03:17:57.512] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Apr2025 03:17:57.960] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Apr2025 03:17:58.458] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Apr2025 03:17:58.952] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[22Apr2025 03:17:59.451] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[22Apr2025 03:17:59.951] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[22Apr2025 03:18:00.450] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[22Apr2025 03:18:00.956] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[22Apr2025 03:18:01.511] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[22Apr2025 03:18:01.954] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[22Apr2025 03:18:02.486] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[22Apr2025 03:18:02.967] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[22Apr2025 03:18:03.461] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[22Apr2025 03:18:03.959] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[22Apr2025 03:18:04.448] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[22Apr2025 03:18:04.947] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[22Apr2025 03:18:05.448] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[22Apr2025 03:18:05.968] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[22Apr2025 03:18:06.448] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[22Apr2025 03:18:06.981] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[22Apr2025 03:18:07.461] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[22Apr2025 03:18:07.956] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[22Apr2025 03:18:08.450] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[22Apr2025 03:18:08.977] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[22Apr2025 03:18:09.462] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[22Apr2025 03:18:09.948] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[22Apr2025 03:18:10.449] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[22Apr2025 03:18:10.950] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[22Apr2025 03:18:11.457] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[22Apr2025 03:18:11.952] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
-[22Apr2025 03:18:12.456] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[22Apr2025 03:18:12.948] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[22Apr2025 03:18:13.486] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[22Apr2025 03:18:13.969] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[22Apr2025 03:18:14.453] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
-[22Apr2025 03:18:14.959] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[22Apr2025 03:18:15.450] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[22Apr2025 03:18:15.956] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[22Apr2025 03:18:16.452] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[22Apr2025 03:18:16.989] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[22Apr2025 03:18:17.496] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[22Apr2025 03:18:17.949] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[22Apr2025 03:18:18.461] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[22Apr2025 03:18:18.951] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[22Apr2025 03:18:19.448] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[22Apr2025 03:18:19.954] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[22Apr2025 03:18:20.455] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[22Apr2025 03:18:20.948] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[22Apr2025 03:18:21.461] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[22Apr2025 03:18:21.958] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[22Apr2025 03:18:22.473] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[22Apr2025 03:18:22.967] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[22Apr2025 03:18:23.473] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
-[22Apr2025 03:18:24.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[22Apr2025 03:18:24.349] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 28902 ms
-[22Apr2025 03:18:24.349] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (35.742s)! For help, type "help"
-[22Apr2025 03:18:24.363] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[22Apr2025 03:20:09.069] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5099ce4b[id=<null>,name=ica_1016,properties={},legacy=false] (/127.32.186.126:56009) lost connection: Disconnected
-[22Apr2025 03:20:55.514] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@60fcf39d[id=<null>,name=ica_1016,properties={},legacy=false] (/127.32.186.126:39129) lost connection: Disconnected
-[22Apr2025 03:31:40.564] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1c1fe79c[id=<null>,name=ica_1016,properties={},legacy=false] (/127.32.186.126:36571) lost connection: Disconnected
+[22Apr2025 03:55:49.347] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[22Apr2025 03:55:49.352] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
+[22Apr2025 03:55:49.581] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22Apr2025 03:55:49.651] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ica/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[22Apr2025 03:55:49.953] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[22Apr2025 03:55:49.956] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Apr2025 03:55:49.959] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Apr2025 03:55:49.962] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Apr2025 03:55:50.141] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[22Apr2025 03:55:52.316] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Apr2025 03:55:52.316] [main/ERROR] [mixin/]: Mixin config azurelib.mixins.json does not specify "minVersion" property
+[22Apr2025 03:55:52.320] [main/ERROR] [mixin/]: Mixin config azurelib.forge.mixins.json does not specify "minVersion" property
+[22Apr2025 03:55:52.355] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[22Apr2025 03:55:52.776] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/GameNarrator (java.lang.ClassNotFoundException: net.minecraft.client.GameNarrator)
+[22Apr2025 03:55:52.777] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.GameNarrator was not found ntgl.mixin.json:common.NarratorMixin
+[22Apr2025 03:56:00.220] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[22Apr2025 03:56:00.220] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[22Apr2025 03:56:00.281] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[22Apr2025 03:56:00.708] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: workbench
+[22Apr2025 03:56:00.711] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: workbench_side
+[22Apr2025 03:56:00.711] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: wasteland_terminal
+[22Apr2025 03:56:00.711] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: nukacola_vending
+[22Apr2025 03:56:00.712] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: nukacola_vending_top
+[22Apr2025 03:56:00.712] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: nukacola_machine
+[22Apr2025 03:56:00.714] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: nukacola_machine_top
+[22Apr2025 03:56:00.714] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: scrap_block
+[22Apr2025 03:56:00.714] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: fragmine
+[22Apr2025 03:56:00.715] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: geardoor
+[22Apr2025 03:56:00.717] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: monorail
+[22Apr2025 03:56:00.717] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: door_terminal
+[22Apr2025 03:56:00.717] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: pa_station_block
+[22Apr2025 03:56:00.718] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: weapon_display
+[22Apr2025 03:56:00.721] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: opengear
+[22Apr2025 03:56:00.721] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: half_barrier
+[22Apr2025 03:56:00.722] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: filler_barrier
+[22Apr2025 03:56:00.725] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: garvellll
+[22Apr2025 03:56:00.725] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: pointed_ultracite_crystall
+[22Apr2025 03:56:00.725] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ultracite_tuff
+[22Apr2025 03:56:00.726] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ultracite_magma
+[22Apr2025 03:56:00.727] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: cranberryleaves
+[22Apr2025 03:56:00.729] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rusty_leaves
+[22Apr2025 03:56:00.729] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: immortal_green_leaves
+[22Apr2025 03:56:00.730] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: dwoodlog
+[22Apr2025 03:56:00.730] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: cranberrywood
+[22Apr2025 03:56:00.731] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: strippeddwood
+[22Apr2025 03:56:00.731] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deadwood_planks
+[22Apr2025 03:56:00.731] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: cranberry_planks
+[22Apr2025 03:56:00.732] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: lead_ore
+[22Apr2025 03:56:00.735] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deeplead_block
+[22Apr2025 03:56:00.735] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: aluminium_ore
+[22Apr2025 03:56:00.736] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deepalumi_block
+[22Apr2025 03:56:00.737] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: silver_ore
+[22Apr2025 03:56:00.738] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deepsilver_block
+[22Apr2025 03:56:00.738] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: quarts_ore
+[22Apr2025 03:56:00.738] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deepquarts_ore
+[22Apr2025 03:56:00.741] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: black_titan_ore
+[22Apr2025 03:56:00.741] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deep_black_titan_block
+[22Apr2025 03:56:00.741] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: uranium_ore
+[22Apr2025 03:56:00.746] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deeruranium
+[22Apr2025 03:56:00.747] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ultracite_ore
+[22Apr2025 03:56:00.747] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deepslate_ultracite_ore
+[22Apr2025 03:56:00.754] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ultracite_tuff_ore
+[22Apr2025 03:56:00.754] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: raw_lead_block
+[22Apr2025 03:56:00.755] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: raw_aluminium_block
+[22Apr2025 03:56:00.755] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: raw_silver_block
+[22Apr2025 03:56:00.755] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: raw_black_titan_block
+[22Apr2025 03:56:00.756] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: raw_uranium_block
+[22Apr2025 03:56:00.756] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: lead_block
+[22Apr2025 03:56:00.756] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: aluminium_block
+[22Apr2025 03:56:00.765] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: silver_block
+[22Apr2025 03:56:00.765] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: steel_block
+[22Apr2025 03:56:00.765] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: saturnite_block
+[22Apr2025 03:56:00.766] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: black_titan_block
+[22Apr2025 03:56:00.766] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: uranium_block
+[22Apr2025 03:56:00.766] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ultracite_block
+[22Apr2025 03:56:00.766] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: slitile
+[22Apr2025 03:56:00.767] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: bluetile
+[22Apr2025 03:56:00.767] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: btile
+[22Apr2025 03:56:00.767] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: cyantile
+[22Apr2025 03:56:00.773] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: greentile
+[22Apr2025 03:56:00.773] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: magtile
+[22Apr2025 03:56:00.773] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: prpltile
+[22Apr2025 03:56:00.773] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: redtile
+[22Apr2025 03:56:00.774] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: brown_tile
+[22Apr2025 03:56:00.774] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: white_tile
+[22Apr2025 03:56:00.774] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: orange_tile
+[22Apr2025 03:56:00.776] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ligthblue_tile
+[22Apr2025 03:56:00.777] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: yellow_tile
+[22Apr2025 03:56:00.777] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: lime_tile
+[22Apr2025 03:56:00.778] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: pink_tile
+[22Apr2025 03:56:00.778] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: darkgray_tile
+[22Apr2025 03:56:00.779] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: gray_tile
+[22Apr2025 03:56:00.780] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vttile
+[22Apr2025 03:56:00.780] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: darkfloor
+[22Apr2025 03:56:00.781] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: acid_dirt
+[22Apr2025 03:56:00.784] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ashdirt
+[22Apr2025 03:56:00.793] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: scorched_earth
+[22Apr2025 03:56:00.794] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ash_stone
+[22Apr2025 03:56:00.794] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ash_smoker
+[22Apr2025 03:56:00.794] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vaultpillar
+[22Apr2025 03:56:00.795] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: crackedwhitebricks
+[22Apr2025 03:56:00.795] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: whitebricks
+[22Apr2025 03:56:00.795] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: smooth_brick
+[22Apr2025 03:56:00.796] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: moss_whitebricks
+[22Apr2025 03:56:00.798] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vaultgen_block1
+[22Apr2025 03:56:00.798] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vaultgen_block2
+[22Apr2025 03:56:00.798] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: tesla_block
+[22Apr2025 03:56:00.799] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: tesla_column
+[22Apr2025 03:56:00.799] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: red_rocket_panel
+[22Apr2025 03:56:00.799] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: nuc_stat_control
+[22Apr2025 03:56:00.800] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: nuc_stat_block
+[22Apr2025 03:56:00.800] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: dangerfloor
+[22Apr2025 03:56:00.800] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vtlattice
+[22Apr2025 03:56:00.801] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: crkbrick_pipe
+[22Apr2025 03:56:00.804] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: crkbrick_vent
+[22Apr2025 03:56:00.804] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vtarmor
+[22Apr2025 03:56:00.805] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: blacksteel
+[22Apr2025 03:56:00.805] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: powerblock
+[22Apr2025 03:56:00.806] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: shelterfloor
+[22Apr2025 03:56:00.807] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: blacksteel2
+[22Apr2025 03:56:00.808] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: redsteel
+[22Apr2025 03:56:00.809] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: scrapmetall
+[22Apr2025 03:56:00.810] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rusttiresblock
+[22Apr2025 03:56:00.813] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: yellow_steel
+[22Apr2025 03:56:00.815] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: yellow_steel_column
+[22Apr2025 03:56:00.816] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rustedredsteel
+[22Apr2025 03:56:00.816] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rustedgreensteel
+[22Apr2025 03:56:00.816] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: platedgreensteel
+[22Apr2025 03:56:00.819] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: greensteel
+[22Apr2025 03:56:00.820] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: whitesteel
+[22Apr2025 03:56:00.820] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: whitesteel_column
+[22Apr2025 03:56:00.821] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: bluesteel
+[22Apr2025 03:56:00.822] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deadwood_planks_slab
+[22Apr2025 03:56:00.822] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: cranberry_planks_slab
+[22Apr2025 03:56:00.823] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: redsteel_slab
+[22Apr2025 03:56:00.824] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: greensteel_slab
+[22Apr2025 03:56:00.826] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: whitesteel_slab
+[22Apr2025 03:56:00.827] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: blacksteel_slab
+[22Apr2025 03:56:00.827] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: whitebricks_slab
+[22Apr2025 03:56:00.827] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: blacksteel_stairs
+[22Apr2025 03:56:00.828] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: deadwood_planks_stairs
+[22Apr2025 03:56:00.829] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: cranberry_planks_stairs
+[22Apr2025 03:56:00.830] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: whitebricks_stairs
+[22Apr2025 03:56:00.831] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: crackedwhitebricks_stairs
+[22Apr2025 03:56:00.831] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: moss_whitebricks_stairs
+[22Apr2025 03:56:00.836] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: tablevt
+[22Apr2025 03:56:00.837] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: writtingdesk1
+[22Apr2025 03:56:00.839] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: writtingdesk2
+[22Apr2025 03:56:00.839] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: writtingdesk3
+[22Apr2025 03:56:00.842] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vtdinner_chair
+[22Apr2025 03:56:00.843] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: office_chair
+[22Apr2025 03:56:00.847] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: tech_chair
+[22Apr2025 03:56:00.847] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: shower_tap
+[22Apr2025 03:56:00.848] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: table_lamp
+[22Apr2025 03:56:00.848] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: goldtoilet
+[22Apr2025 03:56:00.850] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: toilet
+[22Apr2025 03:56:00.854] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: army_theatre_chair
+[22Apr2025 03:56:00.854] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: shelter_lamp
+[22Apr2025 03:56:00.855] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: washbasin
+[22Apr2025 03:56:00.857] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: bath_table
+[22Apr2025 03:56:00.858] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: steel_shelf
+[22Apr2025 03:56:00.859] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: ind_button
+[22Apr2025 03:56:00.859] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: redlight
+[22Apr2025 03:56:00.859] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: cryocapsule
+[22Apr2025 03:56:00.860] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: cryocapsuleact
+[22Apr2025 03:56:00.863] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: opencryocapsule
+[22Apr2025 03:56:00.864] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rusty_pipe
+[22Apr2025 03:56:00.864] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vent_tube
+[22Apr2025 03:56:00.866] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: storage1
+[22Apr2025 03:56:00.866] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: medic_storage
+[22Apr2025 03:56:00.866] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vtcrate1
+[22Apr2025 03:56:00.867] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vtcrate2
+[22Apr2025 03:56:00.868] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: woodcrate
+[22Apr2025 03:56:00.868] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: armedglass
+[22Apr2025 03:56:00.868] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: steel_bars
+[22Apr2025 03:56:00.869] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rusty_steel_bars
+[22Apr2025 03:56:00.871] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: shelter_bars
+[22Apr2025 03:56:00.872] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: vault_blast_door
+[22Apr2025 03:56:00.872] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rustdoor
+[22Apr2025 03:56:00.872] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: door_cage
+[22Apr2025 03:56:00.873] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: door_store
+[22Apr2025 03:56:00.874] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: door_red
+[22Apr2025 03:56:00.874] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: door_green
+[22Apr2025 03:56:00.875] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: door_white
+[22Apr2025 03:56:00.876] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: door_hardened
+[22Apr2025 03:56:00.877] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rreddoor
+[22Apr2025 03:56:00.877] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: supportwall
+[22Apr2025 03:56:00.878] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: supportwalltop
+[22Apr2025 03:56:00.879] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: supporttop
+[22Apr2025 03:56:00.879] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rustsupportwall
+[22Apr2025 03:56:00.880] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rustsupportwalltop
+[22Apr2025 03:56:00.880] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: rustsupporttop
+[22Apr2025 03:56:00.883] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: comblock
+[22Apr2025 03:56:00.884] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: radioterminal
+[22Apr2025 03:56:00.885] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: barrel
+[22Apr2025 03:56:00.886] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered block: expbarrel
+[22Apr2025 03:56:00.912] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: nukamelon
+[22Apr2025 03:56:00.913] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: hollyhock
+[22Apr2025 03:56:00.913] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: dewdrop
+[22Apr2025 03:56:00.915] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: glow_resin
+[22Apr2025 03:56:00.915] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: fuse_glow_resin
+[22Apr2025 03:56:00.915] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: root_daturan
+[22Apr2025 03:56:00.916] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: agave
+[22Apr2025 03:56:00.916] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: neoagave
+[22Apr2025 03:56:00.917] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: punga
+[22Apr2025 03:56:00.917] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: bloodleaf
+[22Apr2025 03:56:00.918] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: qbloodleaf
+[22Apr2025 03:56:00.918] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: crackberrybush
+[22Apr2025 03:56:00.919] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: bombberrybush
+[22Apr2025 03:56:00.919] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: muttfruitbush
+[22Apr2025 03:56:00.920] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: fusionfruitbush
+[22Apr2025 03:56:00.920] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: silt_bean
+[22Apr2025 03:56:00.921] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: neutronpod
+[22Apr2025 03:56:00.921] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: wildtato
+[22Apr2025 03:56:00.922] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: gold_cranberry
+[22Apr2025 03:56:00.922] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: cranberry
+[22Apr2025 03:56:00.923] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: starberry
+[22Apr2025 03:56:00.923] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: zander
+[22Apr2025 03:56:00.924] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: marygold
+[22Apr2025 03:56:00.925] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: ginseng
+[22Apr2025 03:56:00.925] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: nukaroot
+[22Apr2025 03:56:00.926] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: coral_leaf
+[22Apr2025 03:56:00.927] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: prism_leaf
+[22Apr2025 03:56:00.927] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: nukamelon_stem
+[22Apr2025 03:56:00.927] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: attached_nukamelon_stem
+[22Apr2025 03:56:00.928] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: cranberrygrass
+[22Apr2025 03:56:00.929] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: ashgrass
+[22Apr2025 03:56:00.930] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: heap_grass
+[22Apr2025 03:56:00.930] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: strange_grass
+[22Apr2025 03:56:00.931] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: glow_grass
+[22Apr2025 03:56:00.932] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: poison_grass
+[22Apr2025 03:56:00.933] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: dead_punga
+[22Apr2025 03:56:00.933] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: dead_daturan
+[22Apr2025 03:56:00.934] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: dead_coralleaf
+[22Apr2025 03:56:00.935] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: thistle
+[22Apr2025 03:56:00.935] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: death_flower
+[22Apr2025 03:56:00.936] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: death_plant
+[22Apr2025 03:56:00.937] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: sootflower
+[22Apr2025 03:56:00.937] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: feverblossom
+[22Apr2025 03:56:00.938] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: boomblossom
+[22Apr2025 03:56:00.938] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: geigerblossom
+[22Apr2025 03:56:00.939] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: aster
+[22Apr2025 03:56:00.940] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: invertflower
+[22Apr2025 03:56:00.940] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: radaster
+[22Apr2025 03:56:00.940] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: ashrose
+[22Apr2025 03:56:00.941] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: rad_rose
+[22Apr2025 03:56:00.943] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: brocflower
+[22Apr2025 03:56:00.943] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: nukamelon_blossom
+[22Apr2025 03:56:00.944] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: gigawheat
+[22Apr2025 03:56:00.944] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: brainfungus
+[22Apr2025 03:56:00.944] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: mindfungus
+[22Apr2025 03:56:00.945] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: mutshootfungus
+[22Apr2025 03:56:00.945] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: gutshroom
+[22Apr2025 03:56:00.949] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: glowfungus
+[22Apr2025 03:56:00.950] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: firemushroom
+[22Apr2025 03:56:00.952] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: megamorph_hatter
+[22Apr2025 03:56:00.953] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: hatter
+[22Apr2025 03:56:00.954] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: blastcap
+[22Apr2025 03:56:00.955] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_marygold
+[22Apr2025 03:56:00.955] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_death_flower
+[22Apr2025 03:56:00.957] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_gutshroom
+[22Apr2025 03:56:00.958] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_blastcap
+[22Apr2025 03:56:00.959] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_firemushroom
+[22Apr2025 03:56:00.959] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_aster
+[22Apr2025 03:56:00.960] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_brocflower
+[22Apr2025 03:56:00.960] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_invertflower
+[22Apr2025 03:56:00.961] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_radaster
+[22Apr2025 03:56:00.961] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_ashrose
+[22Apr2025 03:56:00.962] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_rad_rose
+[22Apr2025 03:56:00.962] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_geigerblossom
+[22Apr2025 03:56:00.962] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_feverblossom
+[22Apr2025 03:56:00.963] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_boomblossom
+[22Apr2025 03:56:00.963] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_sootflower
+[22Apr2025 03:56:00.963] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_hatter
+[22Apr2025 03:56:00.968] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: potted_megamorph_hatter
+[22Apr2025 03:56:00.969] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: rusty_bush
+[22Apr2025 03:56:00.969] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: tato
+[22Apr2025 03:56:00.970] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: irrad_beetroots
+[22Apr2025 03:56:00.971] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: ufcarrots
+[22Apr2025 03:56:00.971] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: dewdrop_sapling
+[22Apr2025 03:56:00.972] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: toxicfern
+[22Apr2025 03:56:00.972] [modloading-worker-0/INFO] [com.nukateam.nukacraft.NukaCraft/]: Registered plant block: bog_pad
+[22Apr2025 03:56:03.117] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ica/servidor_minecraft/config/ntgl-common.toml is not correct. Correcting
+[22Apr2025 03:56:03.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing.enableGlassBreaking was corrected from null to its default, true. 
+[22Apr2025 03:56:03.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing.fragileBlockDrops was corrected from null to its default, true. 
+[22Apr2025 03:56:03.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing.fragileBlockBreakChance was corrected from null to its default, 1.0. 
+[22Apr2025 03:56:03.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.griefing.setFireToBlocks was corrected from null to its default, true. 
+[22Apr2025 03:56:03.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.growBoundingBoxAmount was corrected from null to its default, 0.3. 
+[22Apr2025 03:56:03.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.enableHeadShots was corrected from null to its default, true. 
+[22Apr2025 03:56:03.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.headShotDamageMultiplier was corrected from null to its default, 1.25. 
+[22Apr2025 03:56:03.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.criticalDamageMultiplier was corrected from null to its default, 1.5. 
+[22Apr2025 03:56:03.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.ignoreLeaves was corrected from null to its default, true. 
+[22Apr2025 03:56:03.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.enableKnockback was corrected from null to its default, true. 
+[22Apr2025 03:56:03.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.knockbackStrength was corrected from null to its default, 0.15. 
+[22Apr2025 03:56:03.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.gameplay.improvedHitboxes was corrected from null to its default, false. 
+[22Apr2025 03:56:03.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.network was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.network.projectileTrackingRange was corrected from null to its default, 200.0. 
+[22Apr2025 03:56:03.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.enabled was corrected from null to its default, true. 
+[22Apr2025 03:56:03.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.angerHostileMobs was corrected from null to its default, true. 
+[22Apr2025 03:56:03.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.unsilencedRange was corrected from null to its default, 20.0. 
+[22Apr2025 03:56:03.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.aggro_mobs.exemptMobs was corrected from null to its default, []. 
+[22Apr2025 03:56:03.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.missiles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.missiles.enableBlockRemoval was corrected from null to its default, false. 
+[22Apr2025 03:56:03.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.missiles.explosionRadius was corrected from null to its default, 5.0. 
+[22Apr2025 03:56:03.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.grenades was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.grenades.enableBlockRemoval was corrected from null to its default, false. 
+[22Apr2025 03:56:03.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.grenades.explosionRadius was corrected from null to its default, 5.0. 
+[22Apr2025 03:56:03.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.radius was corrected from null to its default, 15.0. 
+[22Apr2025 03:56:03.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.durationMax was corrected from null to its default, 220. 
+[22Apr2025 03:56:03.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.durationMin was corrected from null to its default, 10. 
+[22Apr2025 03:56:03.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.angleEffect was corrected from null to its default, 170.0. 
+[22Apr2025 03:56:03.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.angleAttenuationMax was corrected from null to its default, 0.75. 
+[22Apr2025 03:56:03.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.effect_criteria.raytraceOpaqueBlocks was corrected from null to its default, true. 
+[22Apr2025 03:56:03.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.blind.blindMobs was corrected from null to its default, true. 
+[22Apr2025 03:56:03.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.radius was corrected from null to its default, 15.0. 
+[22Apr2025 03:56:03.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.durationMax was corrected from null to its default, 280. 
+[22Apr2025 03:56:03.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.durationMin was corrected from null to its default, 100. 
+[22Apr2025 03:56:03.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.angleEffect was corrected from null to its default, 360.0. 
+[22Apr2025 03:56:03.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.angleAttenuationMax was corrected from null to its default, 0.75. 
+[22Apr2025 03:56:03.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.effect_criteria.raytraceOpaqueBlocks was corrected from null to its default, false. 
+[22Apr2025 03:56:03.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.stun_grenades.deafen.panicMobs was corrected from null to its default, true. 
+[22Apr2025 03:56:03.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.projectile_spread was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.projectile_spread.spreadThreshold was corrected from null to its default, 300. 
+[22Apr2025 03:56:03.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.projectile_spread.maxCount was corrected from null to its default, 10. 
+[22Apr2025 03:56:03.139] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ica/servidor_minecraft/config/balm-common.toml is not correct. Correcting
+[22Apr2025 03:56:03.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleBoolean was corrected from null to its default, true. 
+[22Apr2025 03:56:03.141] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleInt was corrected from null to its default, 42. 
+[22Apr2025 03:56:03.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleString was corrected from null to its default, Hello World. 
+[22Apr2025 03:56:03.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleMultilineString was corrected from null to its default, Hello World. 
+[22Apr2025 03:56:03.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleEnum was corrected from null to its default, Hello. 
+[22Apr2025 03:56:03.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleStringList was corrected from null to its default, [Hello, World]. 
+[22Apr2025 03:56:03.145] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleIntList was corrected from null to its default, [12, 24]. 
+[22Apr2025 03:56:03.145] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleEnumList was corrected from null to its default, [Hello, World]. 
+[22Apr2025 03:56:03.146] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleCategory was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.146] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleCategory.innerField was corrected from null to its default, I am inside. 
+[22Apr2025 03:56:03.146] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleCategory.exampleFloat was corrected from null to its default, 42.84000015258789. 
+[22Apr2025 03:56:03.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ica/servidor_minecraft/config/waystones-common.toml is not correct. Correcting
+[22Apr2025 03:56:03.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.inverseXpCost was corrected from null to its default, false. 
+[22Apr2025 03:56:03.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.blocksPerXpLevel was corrected from null to its default, 1000. 
+[22Apr2025 03:56:03.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.minimumBaseXpCost was corrected from null to its default, 0.0. 
+[22Apr2025 03:56:03.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.maximumBaseXpCost was corrected from null to its default, 3.0. 
+[22Apr2025 03:56:03.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.xpCostPerLeashed was corrected from null to its default, 0. 
+[22Apr2025 03:56:03.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.dimensionalWarpXpCost was corrected from null to its default, 3. 
+[22Apr2025 03:56:03.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.globalWaystoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22Apr2025 03:56:03.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.warpStoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22Apr2025 03:56:03.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.waystoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22Apr2025 03:56:03.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.sharestoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22Apr2025 03:56:03.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.portstoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22Apr2025 03:56:03.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.warpPlateXpCostMultiplier was corrected from null to its default, 0.0. 
+[22Apr2025 03:56:03.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.inventoryButtonXpCostMultiplier was corrected from null to its default, 0.0. 
+[22Apr2025 03:56:03.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.restrictToCreative was corrected from null to its default, false. 
+[22Apr2025 03:56:03.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.restrictRenameToOwner was corrected from null to its default, false. 
+[22Apr2025 03:56:03.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.generatedWaystonesUnbreakable was corrected from null to its default, false. 
+[22Apr2025 03:56:03.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.transportLeashed was corrected from null to its default, true. 
+[22Apr2025 03:56:03.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.transportLeashedDimensional was corrected from null to its default, true. 
+[22Apr2025 03:56:03.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.leashedDenyList was corrected from null to its default, [minecraft:wither]. 
+[22Apr2025 03:56:03.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.dimensionalWarp was corrected from null to its default, ALLOW. 
+[22Apr2025 03:56:03.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.dimensionalWarpAllowList was corrected from null to its default, []. 
+[22Apr2025 03:56:03.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.dimensionalWarpDenyList was corrected from null to its default, []. 
+[22Apr2025 03:56:03.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.allowWaystoneToWaystoneTeleport was corrected from null to its default, true. 
+[22Apr2025 03:56:03.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.globalWaystoneSetupRequiresCreativeMode was corrected from null to its default, true. 
+[22Apr2025 03:56:03.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.globalWaystoneCooldownMultiplier was corrected from null to its default, 1.0. 
+[22Apr2025 03:56:03.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.warpStoneCooldown was corrected from null to its default, 30. 
+[22Apr2025 03:56:03.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.warpStoneUseTime was corrected from null to its default, 32. 
+[22Apr2025 03:56:03.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.warpPlateUseTime was corrected from null to its default, 20. 
+[22Apr2025 03:56:03.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.scrollUseTime was corrected from null to its default, 32. 
+[22Apr2025 03:56:03.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.inventoryButtonCooldown was corrected from null to its default, 300. 
+[22Apr2025 03:56:03.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.inventoryButton was corrected from null to its default, . 
+[22Apr2025 03:56:03.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.warpButtonX was corrected from null to its default, 58. 
+[22Apr2025 03:56:03.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.warpButtonY was corrected from null to its default, 60. 
+[22Apr2025 03:56:03.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.creativeWarpButtonX was corrected from null to its default, 88. 
+[22Apr2025 03:56:03.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.creativeWarpButtonY was corrected from null to its default, 33. 
+[22Apr2025 03:56:03.158] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.158] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.worldGenStyle was corrected from null to its default, BIOME. 
+[22Apr2025 03:56:03.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.frequency was corrected from null to its default, 25. 
+[22Apr2025 03:56:03.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.dimensionAllowList was corrected from null to its default, [minecraft:overworld, minecraft:the_nether, minecraft:the_end]. 
+[22Apr2025 03:56:03.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.dimensionDenyList was corrected from null to its default, []. 
+[22Apr2025 03:56:03.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.nameGenerationMode was corrected from null to its default, PRESET_FIRST. 
+[22Apr2025 03:56:03.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.customWaystoneNames was corrected from null to its default, []. 
+[22Apr2025 03:56:03.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.spawnInVillages was corrected from null to its default, true. 
+[22Apr2025 03:56:03.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.forceSpawnInVillages was corrected from null to its default, false. 
+[22Apr2025 03:56:03.161] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.161] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableTextGlow was corrected from null to its default, false. 
+[22Apr2025 03:56:03.163] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:56:03.163] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.displayWaystonesOnJourneyMap was corrected from null to its default, true. 
+[22Apr2025 03:56:03.163] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.preferJourneyMapIntegration was corrected from null to its default, true. 
+[22Apr2025 03:56:03.255] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:aiming for minecraft:living_entity
+[22Apr2025 03:56:03.255] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:shooting_right for minecraft:living_entity
+[22Apr2025 03:56:03.255] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:shooting_left for minecraft:living_entity
+[22Apr2025 03:56:03.256] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reloading_right for minecraft:living_entity
+[22Apr2025 03:56:03.256] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reloading_left for minecraft:living_entity
+[22Apr2025 03:56:03.256] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:charging_right for minecraft:living_entity
+[22Apr2025 03:56:03.256] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:charging_left for minecraft:living_entity
+[22Apr2025 03:56:03.256] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reload_start for minecraft:living_entity
+[22Apr2025 03:56:03.256] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reload_end for minecraft:living_entity
+[22Apr2025 03:56:03.256] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:equip_right for minecraft:living_entity
+[22Apr2025 03:56:03.256] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:equip_left for minecraft:living_entity
+[22Apr2025 03:56:03.272] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[22Apr2025 03:56:03.275] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[22Apr2025 03:56:03.321] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.322] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.323] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.323] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.324] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.324] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.325] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.325] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.325] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.326] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.326] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.326] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.327] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.327] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.327] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.328] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.328] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.328] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.328] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.329] [main/ERROR] [net.minecraft.Util/]: Entity ntgl:deathclaw has no attributes
+[22Apr2025 03:56:03.342] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[22Apr2025 03:56:03.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[22Apr2025 03:56:03.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Apr2025 03:56:04.186] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[22Apr2025 03:56:05.671] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Apr2025 03:56:05.710] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /workspaces/ica/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.m_13648_(DirectoryLock.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
+	at net.minecraft.util.DirectoryLock.m_13640_(DirectoryLock.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:404) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_289864_(LevelStorageSource.java:342) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
+	at net.minecraft.server.Main.main(Main.java:141) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
