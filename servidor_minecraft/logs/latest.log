@@ -1,132 +1,108 @@
-[01:14:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[01:14:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[01:14:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[01:14:13] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[01:14:13] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1026-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[01:14:13] [main/INFO] [FML]: Searching /workspaces/ica/servidor_minecraft/./mods for mods
-[01:14:13] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from !mixinbooter-10.6.jar
-[01:14:13] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Galacticraft-1.12.2-4.0.7.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[01:14:13] [main/WARN] [FML]: The coremod MicdoodlePlugin (micdoodle8.mods.miccore.MicdoodlePlugin) is not signed!
-[01:14:13] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from More-Planets-1.12.2-2.3.3-GC4.0.6.jar
-[01:14:13] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from stevekung's-lib-mc1.12.2-v1.3.1.jar
-[01:14:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:14:13] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[01:14:13] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ica/servidor_minecraft/./mods/!mixinbooter-10.6.jar Service=LaunchWrapper Env=SERVER
-[01:14:13] [main/WARN] [FML]: The coremod zone.rong.mixinbooter.MixinBooterPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[01:14:13] [main/WARN] [FML]: The coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin) is not signed!
-[01:14:13] [main/INFO] [MixinBooter]: Initializing Mixins...
-[01:14:13] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[01:14:13] [main/INFO] [MixinBooter]: Initializing MixinExtras...
-[01:14:13] [main/INFO] [MixinBooter]: Gathering present mods...
-[01:14:14] [main/INFO] [MixinBooter]: Finished gathering 2 coremods...
-[01:14:14] [main/INFO] [SteveKunG's Lib]: Initializing SteveKunG's Lib plugin!
-[01:14:14] [main/WARN] [FML]: The coremod SteveKunGLibPlugin (stevekung.mods.stevekunglib.core.SteveKunGLibPlugin) is not signed!
-[01:14:14] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[01:14:14] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[01:14:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:14:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:14:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:14:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:14:15] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:14:15] [main/INFO] [MicdoodleCore]: Successfully Registered Transformer
-[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[01:14:15] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@6fd1660
-[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:14:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:14:15] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[01:14:15] [main/INFO] [stevekung.mods.moreplanets.core.MPMixinConfigPlugin]: Magma Server not detected!
-[01:14:15] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.1).
-[01:14:16] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[01:14:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[01:14:19] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[01:14:19] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[01:14:19] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[01:14:19] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[01:14:19] [Server thread/INFO] [MixinBooter]: Initializing MixinBooter's Mod Container.
-[01:14:19] [Server thread/INFO] [FML]: Searching /workspaces/ica/servidor_minecraft/./mods for mods
-[01:14:20] [Server thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
-[01:14:20] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[01:14:20] [Server thread/WARN] [FML]: Missing English translation for stevekung's_lib: assets/stevekung's_lib/lang/en_us.lang
-[01:14:20] [Server thread/INFO] [MixinBooter]: Loading late loader [stevekung.mods.moreplanets.core.GCMixinLoader] for its mixins.
-[01:14:20] [Server thread/INFO] [MixinBooter]: Adding [mixins.more_planets_gc.json] mixin configuration.
-[01:14:20] [Server thread/INFO] [MixinBooter]: Adding [mixins.more_planets_gs.json] mixin configuration.
-[01:14:20] [Server thread/WARN] [mixin]: Error loading class: asmodeuscore/core/astronomy/dimension/world/worldengine/WE_WorldProviderSpace (java.lang.ClassNotFoundException: The specified class 'asmodeuscore.core.astronomy.dimension.world.worldengine.WE_WorldProviderSpace' was not found)
-[01:14:20] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, micdoodlecore, mixinbooter, galacticraftplanets, galacticraftcore, moreplanets, stevekung's_lib] at CLIENT
-[01:14:20] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, micdoodlecore, mixinbooter, galacticraftplanets, galacticraftcore, moreplanets, stevekung's_lib] at SERVER
-[01:14:20] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[01:14:20] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[01:14:20] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[01:14:20] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[01:14:20] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[01:14:20] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [stevekung's_lib] Starting version check at https://raw.githubusercontent.com/SteveKunG/VersionCheckLibrary/master/stevekung's_lib_version.json
-[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [stevekung's_lib] Found status: UP_TO_DATE Target: null
-[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [moreplanets] Starting version check at https://raw.githubusercontent.com/SteveKunG/VersionCheckLibrary/master/more_planets_version.json
-[01:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [moreplanets] Found status: UP_TO_DATE Target: null
-[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
-[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
-[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
-[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
-[01:14:23] [Server thread/INFO] [More Planets]: Initialize sounds from class stevekung.mods.moreplanets.init.MPSounds
-[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
-[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
-[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
-[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
-[01:14:23] [Server thread/INFO] [FML]: Injecting itemstacks
-[01:14:23] [Server thread/INFO] [FML]: Itemstack injection complete
-[01:14:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[01:14:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[01:14:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[01:14:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[01:14:23] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[01:14:23] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:14:23] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[01:14:23] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:14:23] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:14:23] [Server thread/INFO] [FML]: Applying holder lookups
-[01:14:23] [Server thread/INFO] [FML]: Holder lookups applied
-[01:14:23] [Server thread/INFO] [FML]: Injecting itemstacks
-[01:14:23] [Server thread/INFO] [FML]: Itemstack injection complete
-[01:14:24] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
-[01:14:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[01:14:24] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[01:14:25] [Server thread/INFO] [FML]: Applying holder lookups
-[01:14:25] [Server thread/INFO] [FML]: Holder lookups applied
-[01:14:25] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@65e2ec96)
-[01:14:25] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 832 advancements
-[01:14:25] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@65e2ec96)
-[01:14:25] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@65e2ec96)
-[01:14:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[01:14:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 61%
-[01:14:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.507s)! For help, type "help" or "?"
-[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2542
-[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2543
-[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2544
-[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2545
-[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -29
-[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -30
-[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -31
-[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -2642
-[01:14:26] [Server thread/INFO] [GalacticraftCore]: Registered Dimension: -28
-[01:14:26] [Server thread/INFO] [FML]: Unloading dimension -1
-[01:14:26] [Server thread/INFO] [FML]: Unloading dimension 1
-[01:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[01:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[01:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[01:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[01:17:40] [Server thread/INFO] [FML]: Unloading dimension 0
-[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2542
-[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2543
-[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2544
-[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2545
-[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -29
-[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -30
-[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -31
-[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -2642
-[01:17:40] [Server thread/INFO] [GalacticraftCore]: Unregistered Dimension: -28
-[01:17:40] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22Apr2025 03:17:36.038] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[22Apr2025 03:17:36.043] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
+[22Apr2025 03:17:36.177] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/ica/servidor_minecraft/config/fml.toml is not correct. Correcting
+[22Apr2025 03:17:36.181] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[22Apr2025 03:17:36.181] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[22Apr2025 03:17:36.182] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[22Apr2025 03:17:36.183] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[22Apr2025 03:17:36.204] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22Apr2025 03:17:36.259] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ica/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[22Apr2025 03:17:36.497] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[22Apr2025 03:17:36.499] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Apr2025 03:17:36.501] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Apr2025 03:17:36.502] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ica/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Apr2025 03:17:36.583] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Apr2025 03:17:38.059] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[22Apr2025 03:17:43.807] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[22Apr2025 03:17:43.811] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[22Apr2025 03:17:44.486] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Apr2025 03:17:45.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[22Apr2025 03:17:45.628] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Apr2025 03:17:45.670] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ica/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
+[22Apr2025 03:17:45.671] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ica/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
+[22Apr2025 03:17:47.559] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[22Apr2025 03:17:47.698] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[22Apr2025 03:17:48.300] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[22Apr2025 03:17:48.301] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Apr2025 03:17:48.301] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Apr2025 03:17:48.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Apr2025 03:17:48.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Apr2025 03:17:48.486] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Apr2025 03:17:48.584] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Apr2025 03:17:48.585] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Apr2025 03:17:48.586] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Apr2025 03:17:48.586] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Apr2025 03:17:48.617] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[22Apr2025 03:17:48.620] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Apr2025 03:17:48.621] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[22Apr2025 03:17:48.622] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[22Apr2025 03:17:48.623] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[22Apr2025 03:17:48.624] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[22Apr2025 03:17:48.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[22Apr2025 03:17:48.626] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[22Apr2025 03:17:48.627] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[22Apr2025 03:17:48.690] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Apr2025 03:17:55.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Apr2025 03:17:56.017] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2025 03:17:56.020] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2025 03:17:56.633] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2025 03:17:56.955] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2025 03:17:57.512] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2025 03:17:57.960] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2025 03:17:58.458] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2025 03:17:58.952] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[22Apr2025 03:17:59.451] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[22Apr2025 03:17:59.951] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Apr2025 03:18:00.450] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[22Apr2025 03:18:00.956] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[22Apr2025 03:18:01.511] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[22Apr2025 03:18:01.954] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[22Apr2025 03:18:02.486] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[22Apr2025 03:18:02.967] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[22Apr2025 03:18:03.461] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[22Apr2025 03:18:03.959] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[22Apr2025 03:18:04.448] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[22Apr2025 03:18:04.947] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[22Apr2025 03:18:05.448] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[22Apr2025 03:18:05.968] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[22Apr2025 03:18:06.448] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[22Apr2025 03:18:06.981] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[22Apr2025 03:18:07.461] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[22Apr2025 03:18:07.956] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[22Apr2025 03:18:08.450] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[22Apr2025 03:18:08.977] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[22Apr2025 03:18:09.462] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[22Apr2025 03:18:09.948] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[22Apr2025 03:18:10.449] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[22Apr2025 03:18:10.950] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[22Apr2025 03:18:11.457] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[22Apr2025 03:18:11.952] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[22Apr2025 03:18:12.456] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[22Apr2025 03:18:12.948] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[22Apr2025 03:18:13.486] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[22Apr2025 03:18:13.969] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[22Apr2025 03:18:14.453] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[22Apr2025 03:18:14.959] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[22Apr2025 03:18:15.450] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[22Apr2025 03:18:15.956] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[22Apr2025 03:18:16.452] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[22Apr2025 03:18:16.989] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[22Apr2025 03:18:17.496] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[22Apr2025 03:18:17.949] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[22Apr2025 03:18:18.461] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[22Apr2025 03:18:18.951] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[22Apr2025 03:18:19.448] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[22Apr2025 03:18:19.954] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[22Apr2025 03:18:20.455] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[22Apr2025 03:18:20.948] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[22Apr2025 03:18:21.461] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[22Apr2025 03:18:21.958] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[22Apr2025 03:18:22.473] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[22Apr2025 03:18:22.967] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[22Apr2025 03:18:23.473] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[22Apr2025 03:18:24.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[22Apr2025 03:18:24.349] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 28902 ms
+[22Apr2025 03:18:24.349] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (35.742s)! For help, type "help"
+[22Apr2025 03:18:24.363] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Apr2025 03:20:09.069] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5099ce4b[id=<null>,name=ica_1016,properties={},legacy=false] (/127.32.186.126:56009) lost connection: Disconnected
+[22Apr2025 03:20:55.514] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@60fcf39d[id=<null>,name=ica_1016,properties={},legacy=false] (/127.32.186.126:39129) lost connection: Disconnected
